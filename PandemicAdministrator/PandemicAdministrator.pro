@@ -31,7 +31,7 @@ SOURCES += main.cpp \
     core/moduleloader.cpp \
     builtin/modulemanager/modulemanager.cpp \
     core/outputlog.cpp \
-    builtin/consolelog/consolelog.cpp
+    builtin/consolelog/consolelog.cpp \
     widgets/windowarea.cpp
 
 HEADERS  += \
@@ -53,7 +53,7 @@ HEADERS  += \
     builtin/modulemanager/modulemanager.h \
     core/outputlog.h \
     builtin/consolelog/consolelog.h \
-    api/moduleinterface.h
+    api/moduleinterface.h \
     widgets/windowarea.h
 
 RESOURCES += res/resources.qrc

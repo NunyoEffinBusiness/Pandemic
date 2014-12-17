@@ -5,7 +5,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     _sWidget = new QStackedWidget();
     _taskBar = new TaskBar();
-    _windowArea = new QMdiArea();
+    _windowArea = new WindowArea();
     _cWidget = new QWidget();
 
     _cLayout = new QGridLayout();

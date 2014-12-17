@@ -12,9 +12,10 @@
 #include <QSplitter>
 #include <QStackedWidget>
 #include <QWidget>
+#include "../api/pandemicwindow.h"
 #include "../server/connection.h"
 #include "../widgets/taskbar.h"
-#include "../api/pandemicwindow.h"
+#include "../widgets/windowarea.h"
 
 class MainWindow : public QMainWindow
 {
@@ -30,7 +31,7 @@ private:
     QStackedWidget *_sWidget;
     QWidget *_cWidget;
     TaskBar *_taskBar;
-    QMdiArea *_windowArea;
+    WindowArea *_windowArea;
 
 protected:
     void resizeEvent(QResizeEvent *event);
