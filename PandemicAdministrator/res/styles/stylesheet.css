@@ -1,0 +1,109 @@
+#TaskBar
+{
+	background:#333;
+}
+
+#TaskBar QLabel{
+	color:#fff;
+	font-size:15px;
+}
+
+#TaskBarMenuButton, #StartButton{
+	background:transparent;
+	border:0px;
+	color: #fff;
+	padding:0 15px;
+	font-size:15px;
+}
+
+#TaskBarMenuButton:hover, #StartButton:hover{
+
+	background:#111;
+}
+
+#TaskBar #StartButton{
+	border-right:1px solid #666;
+}
+
+#TaskBar #StartButton::menu-indicator{
+	background-image:none;
+	background:transparent;
+}
+
+QMenu{
+	background: #333;
+	color:#fff;
+	font-size:14px;
+	padding:0;
+}
+
+QMenu::item{
+	padding: 4px 40px 4px 40px;
+	margin:3px 0px;
+	min-width:100px;
+	height:24px;
+}
+
+QMenu::icon{
+	left:15px;
+}
+
+QMenu::item:selected{
+	background:#111;
+}
+
+#PandemicWindow{
+	background:#999;
+}
+
+#PandemicWindowContent{
+	background:#333;
+}
+
+
+#SubWindowTitleBar{
+	background:#999;
+}
+
+#SubWindowContainer{
+	background:#333;
+}
+
+#SubWindowCloseButton{
+	border:none;
+	color:#fff;
+	height:20px;
+	width:46px;
+}
+
+#PandemicWindow #SubWindowCloseButton{
+	background: #bcbcbc;
+}
+
+#SubWindowCloseButton:hover{
+	background: #e04343;
+}
+
+#SubWindowCloseButton:pressed{
+	background: #b01919
+}
+
+#SubWindowTitleBarButton{
+	background:transparent;
+	border:none;
+	width:26px;
+	height:20px;
+}
+
+#SubWindowTitleBarButton:hover{
+	background:#3665b3;
+}
+
+#WindowArea{
+
+}
+
+#Console{
+	background:#333;
+	border:0;
+}

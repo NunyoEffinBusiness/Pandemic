@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>styles/stylesheet.css</file>
+        <file>icons/outbreak.png</file>
+        <file>images/background01.jpg</file>
+        <file>icons/cross93.png</file>
+        <file>icons/maximize.png</file>
+        <file>icons/minimize.png</file>
+        <file>icons/close.png</file>
+        <file>icons/restore.png</file>
+        <file>icons/start.png</file>
+    </qresource>
+</RCC>
